@@ -9,7 +9,7 @@ function consultandoApi(param) {
     type: "GET",
     datatype: "JSON",
     success: (data) => {
-      console.log(data);
+      //console.log(data);
       createCards2(data);
     }
   });
